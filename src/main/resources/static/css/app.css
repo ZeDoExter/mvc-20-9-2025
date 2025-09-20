@@ -1,0 +1,17 @@
+/* Global app styles */
+
+/* Make current nav link bold and same tone as brand */
+.navbar .nav-link.active {
+  font-weight: 100;
+}
+
+/* Tweak for light navbar so active link is prominent */
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Tweak for dark navbar just in case */
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+

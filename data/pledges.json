@@ -1,0 +1,181 @@
+[ {
+  "id" : "0a25f72c-a185-4d99-bc79-272f47649906",
+  "userId" : "U001",
+  "projectId" : "10000001",
+  "timestamp" : 1758338522.551307300,
+  "amount" : 500.0,
+  "rewardTierId" : "10000001-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "ca673335-35bb-4ee0-96b7-0728dd49eced",
+  "userId" : "U002",
+  "projectId" : "10000001",
+  "timestamp" : 1758338522.551307300,
+  "amount" : 1600.0,
+  "rewardTierId" : "10000001-R3",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "6d8cd4e6-937c-471b-bb8e-5af44dd1b1f0",
+  "userId" : "U003",
+  "projectId" : "10000002",
+  "timestamp" : 1758338522.551307300,
+  "amount" : 300.0,
+  "rewardTierId" : "10000002-R1",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "cd991600-aa4d-49f7-bd1e-f7fc2dc8c5e7",
+  "userId" : "U004",
+  "projectId" : "10000002",
+  "timestamp" : 1758338522.551307300,
+  "amount" : 700.0,
+  "rewardTierId" : "10000002-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "3322a771-7a56-45d6-a721-58be465fa01c",
+  "userId" : "U005",
+  "projectId" : "10000003",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 250.0,
+  "rewardTierId" : "10000003-R1",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "2c8fd4d8-db48-4bd6-9507-699e92981458",
+  "userId" : "U006",
+  "projectId" : "10000003",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 600.0,
+  "rewardTierId" : "10000003-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "61f3d22c-e17b-467d-8611-38b750f3cf36",
+  "userId" : "U007",
+  "projectId" : "10000004",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 1500.0,
+  "rewardTierId" : "10000004-R3",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "3ab2f45b-96ca-42bd-af5d-7fbaf71195f1",
+  "userId" : "U008",
+  "projectId" : "10000005",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 600.0,
+  "rewardTierId" : "10000005-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "296f579d-8f7a-47be-993c-98daaeed20bb",
+  "userId" : "U009",
+  "projectId" : "10000005",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 1500.0,
+  "rewardTierId" : "10000005-R3",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "8953f516-ead4-40e1-a54e-072b4885d16e",
+  "userId" : "U010",
+  "projectId" : "10000005",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 300.0,
+  "rewardTierId" : "10000005-R1",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "88443d89-9a02-44af-857c-be982037eb14",
+  "userId" : "U001",
+  "projectId" : "10000006",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 1500.0,
+  "rewardTierId" : "10000006-R3",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "9b1a65db-09f1-492b-8ecc-994b2a8150fd",
+  "userId" : "U002",
+  "projectId" : "10000007",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 300.0,
+  "rewardTierId" : "10000007-R1",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "25c2da8b-9f9f-4a32-9936-7e33a25b036f",
+  "userId" : "U003",
+  "projectId" : "10000007",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 600.0,
+  "rewardTierId" : "10000007-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "723dc362-e664-4959-a6cc-3f4e6a4012bf",
+  "userId" : "U004",
+  "projectId" : "10000008",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 500.0,
+  "rewardTierId" : "10000008-R2",
+  "status" : "ACCEPTED",
+  "rejectionReason" : null
+}, {
+  "id" : "5aff56ba-51fc-48ae-ac85-1f5706e0f176",
+  "userId" : "U005",
+  "projectId" : "10000003",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 100.0,
+  "rewardTierId" : "10000003-R1",
+  "status" : "REJECTED",
+  "rejectionReason" : "Below minimum for reward"
+}, {
+  "id" : "01ce2bf2-545e-4505-b90d-006425361b62",
+  "userId" : "U006",
+  "projectId" : "10000004",
+  "timestamp" : 1758338522.552306600,
+  "amount" : -50.0,
+  "rewardTierId" : null,
+  "status" : "REJECTED",
+  "rejectionReason" : "Amount must be > 0"
+}, {
+  "id" : "49686a94-c3a0-46ac-8158-d864acc77105",
+  "userId" : "U007",
+  "projectId" : "10000006",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 1500.0,
+  "rewardTierId" : "10000006-R3",
+  "status" : "REJECTED",
+  "rejectionReason" : "Reward quota exhausted"
+}, {
+  "id" : "f5561391-5097-4dc8-8c39-d306ce034200",
+  "userId" : "U008",
+  "projectId" : "10000009",
+  "timestamp" : 1758338522.552306600,
+  "amount" : 500.0,
+  "rewardTierId" : "10000009-R2",
+  "status" : "REJECTED",
+  "rejectionReason" : "Project deadline has passed"
+}, {
+  "id" : "555526cd-2c28-4827-8e17-5305ac8b8afa",
+  "userId" : "U001",
+  "projectId" : "10000009",
+  "timestamp" : 1758338577.295248100,
+  "amount" : 500.0,
+  "rewardTierId" : null,
+  "status" : "REJECTED",
+  "rejectionReason" : "Project deadline has passed"
+}, {
+  "id" : "4bffa3a1-2fb5-475a-ae3d-ee05d207d261",
+  "userId" : "U001",
+  "projectId" : "10000009",
+  "timestamp" : 1758340858.378456900,
+  "amount" : 1000.0,
+  "rewardTierId" : null,
+  "status" : "REJECTED",
+  "rejectionReason" : "Project deadline has passed"
+} ]

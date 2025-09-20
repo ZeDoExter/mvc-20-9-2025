@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Navbar Fragment</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}">
+</head>
+<body>
+<!-- Reusable navbar fragment -->
+<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-light bg-light" data-fragment="navbar">
+  <div class="container">
+    <a class="navbar-brand" th:href="@{/projects}">Crowdfund</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link"
+             th:href="@{/projects}"
+             th:classappend="${active}=='projects' ? ' active' : ''">โครงการ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             th:href="@{/stats}"
+             th:classappend="${active}=='stats' ? ' active' : ''">สถิติ</a>
+        </li>
+      </ul>
+      <div class="d-flex ms-auto align-items-center">
+        <span class="me-3" th:if="${currentUser}">สวัสดี, <b th:text="${currentUser}"></b></span>
+        <a th:if="${currentUser}" class="btn btn-outline-secondary btn-sm" th:href="@{/logout}">Logout</a>
+        <a th:unless="${currentUser}" class="btn btn-primary btn-sm" th:href="@{/login}">Login</a>
+      </div>
+    </div>
+  </div>
+  </nav>
+</body>
+</html>

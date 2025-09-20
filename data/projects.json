@@ -1,0 +1,319 @@
+[ {
+  "id" : "10000001",
+  "name" : "Smart Plant Monitor",
+  "category" : "Tech",
+  "goalAmount" : 50000.0,
+  "deadline" : [ 2025, 10, 10 ],
+  "createdAt" : [ 2025, 9, 20 ],
+  "currentRaised" : 2100.0,
+  "hasStretchGoals" : true,
+  "rejectedPledges" : 0,
+  "rewardTiers" : [ {
+    "id" : "10000001-R1",
+    "name" : "Early Bird",
+    "minAmount" : 300.0,
+    "totalQuota" : 100,
+    "remainingQuota" : 100
+  }, {
+    "id" : "10000001-R2",
+    "name" : "Standard",
+    "minAmount" : 600.0,
+    "totalQuota" : 50,
+    "remainingQuota" : 49
+  }, {
+    "id" : "10000001-R3",
+    "name" : "Deluxe",
+    "minAmount" : 1500.0,
+    "totalQuota" : 10,
+    "remainingQuota" : 9
+  } ],
+  "stretchGoals" : [ {
+    "id" : "10000001-S1",
+    "thresholdAmount" : 60000.0,
+    "description" : "Extra feature set"
+  }, {
+    "id" : "10000001-S2",
+    "thresholdAmount" : 75000.0,
+    "description" : "Premium materials upgrade"
+  }, {
+    "id" : "10000001-S3",
+    "thresholdAmount" : 100000.0,
+    "description" : "Bonus reward for all backers"
+  } ]
+}, {
+  "id" : "10000002",
+  "name" : "Indie Board Game",
+  "category" : "Games",
+  "goalAmount" : 80000.0,
+  "deadline" : [ 2025, 10, 15 ],
+  "createdAt" : [ 2025, 9, 15 ],
+  "currentRaised" : 1000.0,
+  "hasStretchGoals" : true,
+  "rejectedPledges" : 0,
+  "rewardTiers" : [ {
+    "id" : "10000002-R1",
+    "name" : "Early Bird",
+    "minAmount" : 300.0,
+    "totalQuota" : 200,
+    "remainingQuota" : 199
+  }, {
+    "id" : "10000002-R2",
+    "name" : "Standard",
+    "minAmount" : 600.0,
+    "totalQuota" : 80,
+    "remainingQuota" : 79
+  }, {
+    "id" : "10000002-R3",
+    "name" : "Deluxe",
+    "minAmount" : 1500.0,
+    "totalQuota" : 15,
+    "remainingQuota" : 15
+  } ],
+  "stretchGoals" : [ {
+    "id" : "10000002-S1",
+    "thresholdAmount" : 96000.0,
+    "description" : "Extra feature set"
+  }, {
+    "id" : "10000002-S2",
+    "thresholdAmount" : 120000.0,
+    "description" : "Premium materials upgrade"
+  }, {
+    "id" : "10000002-S3",
+    "thresholdAmount" : 160000.0,
+    "description" : "Bonus reward for all backers"
+  } ]
+}, {
+  "id" : "10000003",
+  "name" : "Community Garden",
+  "category" : "Community",
+  "goalAmount" : 30000.0,
+  "deadline" : [ 2025, 10, 8 ],
+  "createdAt" : [ 2025, 9, 10 ],
+  "currentRaised" : 850.0,
+  "hasStretchGoals" : false,
+  "rejectedPledges" : 1,
+  "rewardTiers" : [ {
+    "id" : "10000003-R1",
+    "name" : "Supporter",
+    "minAmount" : 200.0,
+    "totalQuota" : 2,
+    "remainingQuota" : 1
+  }, {
+    "id" : "10000003-R2",
+    "name" : "Backer",
+    "minAmount" : 500.0,
+    "totalQuota" : 1,
+    "remainingQuota" : 0
+  }, {
+    "id" : "10000003-R3",
+    "name" : "VIP",
+    "minAmount" : 1200.0,
+    "totalQuota" : 3,
+    "remainingQuota" : 3
+  } ],
+  "stretchGoals" : [ ]
+}, {
+  "id" : "10000004",
+  "name" : "Art Exhibition",
+  "category" : "Art",
+  "goalAmount" : 45000.0,
+  "deadline" : [ 2025, 10, 5 ],
+  "createdAt" : [ 2025, 9, 5 ],
+  "currentRaised" : 1500.0,
+  "hasStretchGoals" : false,
+  "rejectedPledges" : 1,
+  "rewardTiers" : [ {
+    "id" : "10000004-R1",
+    "name" : "Supporter",
+    "minAmount" : 200.0,
+    "totalQuota" : 100,
+    "remainingQuota" : 100
+  }, {
+    "id" : "10000004-R2",
+    "name" : "Backer",
+    "minAmount" : 500.0,
+    "totalQuota" : 50,
+    "remainingQuota" : 50
+  }, {
+    "id" : "10000004-R3",
+    "name" : "VIP",
+    "minAmount" : 1200.0,
+    "totalQuota" : 5,
+    "remainingQuota" : 4
+  } ],
+  "stretchGoals" : [ ]
+}, {
+  "id" : "10000005",
+  "name" : "STEM Workshop",
+  "category" : "Education",
+  "goalAmount" : 60000.0,
+  "deadline" : [ 2025, 10, 20 ],
+  "createdAt" : [ 2025, 8, 31 ],
+  "currentRaised" : 2400.0,
+  "hasStretchGoals" : true,
+  "rejectedPledges" : 0,
+  "rewardTiers" : [ {
+    "id" : "10000005-R1",
+    "name" : "Early Bird",
+    "minAmount" : 300.0,
+    "totalQuota" : 150,
+    "remainingQuota" : 149
+  }, {
+    "id" : "10000005-R2",
+    "name" : "Standard",
+    "minAmount" : 600.0,
+    "totalQuota" : 70,
+    "remainingQuota" : 69
+  }, {
+    "id" : "10000005-R3",
+    "name" : "Deluxe",
+    "minAmount" : 1500.0,
+    "totalQuota" : 10,
+    "remainingQuota" : 9
+  } ],
+  "stretchGoals" : [ {
+    "id" : "10000005-S1",
+    "thresholdAmount" : 72000.0,
+    "description" : "Extra feature set"
+  }, {
+    "id" : "10000005-S2",
+    "thresholdAmount" : 90000.0,
+    "description" : "Premium materials upgrade"
+  }, {
+    "id" : "10000005-S3",
+    "thresholdAmount" : 120000.0,
+    "description" : "Bonus reward for all backers"
+  } ]
+}, {
+  "id" : "10000006",
+  "name" : "Local Coffee Roaster",
+  "category" : "Food",
+  "goalAmount" : 55000.0,
+  "deadline" : [ 2025, 10, 12 ],
+  "createdAt" : [ 2025, 8, 26 ],
+  "currentRaised" : 1500.0,
+  "hasStretchGoals" : false,
+  "rejectedPledges" : 1,
+  "rewardTiers" : [ {
+    "id" : "10000006-R1",
+    "name" : "Supporter",
+    "minAmount" : 200.0,
+    "totalQuota" : 80,
+    "remainingQuota" : 80
+  }, {
+    "id" : "10000006-R2",
+    "name" : "Backer",
+    "minAmount" : 500.0,
+    "totalQuota" : 40,
+    "remainingQuota" : 40
+  }, {
+    "id" : "10000006-R3",
+    "name" : "VIP",
+    "minAmount" : 1200.0,
+    "totalQuota" : 1,
+    "remainingQuota" : 0
+  } ],
+  "stretchGoals" : [ ]
+}, {
+  "id" : "10000007",
+  "name" : "Solar Charger v2",
+  "category" : "Tech",
+  "goalAmount" : 120000.0,
+  "deadline" : [ 2025, 10, 18 ],
+  "createdAt" : [ 2025, 8, 21 ],
+  "currentRaised" : 900.0,
+  "hasStretchGoals" : true,
+  "rejectedPledges" : 0,
+  "rewardTiers" : [ {
+    "id" : "10000007-R1",
+    "name" : "Early Bird",
+    "minAmount" : 300.0,
+    "totalQuota" : 120,
+    "remainingQuota" : 119
+  }, {
+    "id" : "10000007-R2",
+    "name" : "Standard",
+    "minAmount" : 600.0,
+    "totalQuota" : 60,
+    "remainingQuota" : 59
+  }, {
+    "id" : "10000007-R3",
+    "name" : "Deluxe",
+    "minAmount" : 1500.0,
+    "totalQuota" : 12,
+    "remainingQuota" : 12
+  } ],
+  "stretchGoals" : [ {
+    "id" : "10000007-S1",
+    "thresholdAmount" : 144000.0,
+    "description" : "Extra feature set"
+  }, {
+    "id" : "10000007-S2",
+    "thresholdAmount" : 180000.0,
+    "description" : "Premium materials upgrade"
+  }, {
+    "id" : "10000007-S3",
+    "thresholdAmount" : 240000.0,
+    "description" : "Bonus reward for all backers"
+  } ]
+}, {
+  "id" : "10000008",
+  "name" : "Music Album",
+  "category" : "Art",
+  "goalAmount" : 70000.0,
+  "deadline" : [ 2025, 10, 16 ],
+  "createdAt" : [ 2025, 8, 16 ],
+  "currentRaised" : 500.0,
+  "hasStretchGoals" : false,
+  "rejectedPledges" : 0,
+  "rewardTiers" : [ {
+    "id" : "10000008-R1",
+    "name" : "Supporter",
+    "minAmount" : 200.0,
+    "totalQuota" : 100,
+    "remainingQuota" : 100
+  }, {
+    "id" : "10000008-R2",
+    "name" : "Backer",
+    "minAmount" : 500.0,
+    "totalQuota" : 50,
+    "remainingQuota" : 49
+  }, {
+    "id" : "10000008-R3",
+    "name" : "VIP",
+    "minAmount" : 1200.0,
+    "totalQuota" : 10,
+    "remainingQuota" : 10
+  } ],
+  "stretchGoals" : [ ]
+}, {
+  "id" : "10000009",
+  "name" : "Retro Tech Revival",
+  "category" : "Tech",
+  "goalAmount" : 40000.0,
+  "deadline" : [ 2025, 9, 13 ],
+  "createdAt" : [ 2025, 8, 11 ],
+  "currentRaised" : 0.0,
+  "hasStretchGoals" : false,
+  "rejectedPledges" : 3,
+  "rewardTiers" : [ {
+    "id" : "10000009-R1",
+    "name" : "Early",
+    "minAmount" : 300.0,
+    "totalQuota" : 1,
+    "remainingQuota" : 1
+  }, {
+    "id" : "10000009-R2",
+    "name" : "Standard",
+    "minAmount" : 600.0,
+    "totalQuota" : 1,
+    "remainingQuota" : 1
+  }, {
+    "id" : "10000009-R3",
+    "name" : "Deluxe",
+    "minAmount" : 1500.0,
+    "totalQuota" : 1,
+    "remainingQuota" : 1
+  } ],
+  "stretchGoals" : [ ]
+} ]
